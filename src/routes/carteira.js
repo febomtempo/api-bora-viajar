@@ -1,7 +1,7 @@
 const _ = require("lodash");
 const axios = require("axios");
 
-const MIN_PAGES = 120;
+const MIN_PAGES = 10;
 
 const formatBRL = (value) => {
   return value.toLocaleString("pt-BR", {
